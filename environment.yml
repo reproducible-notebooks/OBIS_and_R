@@ -1,4 +1,3 @@
-name: OBIS
 channels:
   - conda-forge
   - defaults
