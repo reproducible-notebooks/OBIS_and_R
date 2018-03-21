@@ -1,0 +1,16 @@
+name: OBIS
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - geopandas
+  - jupyter
+  - palettable
+  - r-base=3.4.1
+  - r-ggplot2
+  - r-obistools
+  - r-robis
+  - rpy2
+  - pip:
+    - git+https://github.com/python-visualization/folium.git
